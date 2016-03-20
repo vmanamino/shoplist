@@ -1,3 +1,32 @@
 body {
     text-align: center;
 }
+
+.entry > input {
+    margin-left: 6%;
+}
+
+.entry button {
+    margin-left: 1%;
+}
+
+.items {
+    padding: 0;
+}
+
+.items > li {
+    display: block;
+    padding: .5% 22% .5% 30%;
+}
+
+.items > li button {
+    border-radius: 12%;
+    width: 5%;
+    height: 23px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.items > li input {
+    margin-right: 3%;
+}
