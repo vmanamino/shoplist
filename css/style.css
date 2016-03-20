@@ -25,8 +25,14 @@ body {
     height: 23px;
     margin-left: 10%;
     margin-right: 10%;
+    color: red;
 }
 
 .items > li input {
     margin-right: 3%;
+    cursor: pointer;
+}
+
+.items > li input:checked {
+    
 }
