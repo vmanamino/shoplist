@@ -12,6 +12,13 @@ $(document).ready(function() {
                 $(this).parent().remove();
                 console.log("list parent removed");
             });
+            $(".list > .items li").on("change", "input", function(){ 
+                if (this.checked) { 
+                    $(this).next().css("text-decoration", "line-through"); 
+                } else if (!this.checked) { 
+                    $(this).next().css("text-decoration", "none"); 
+                } 
+            });
         }    
     });
 });
