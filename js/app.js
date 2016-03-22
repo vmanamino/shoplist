@@ -1,5 +1,6 @@
 $(document).ready(function() {
-    $(".entry button").mousedown(function(){
+    $("#target").submit(function(event){
+        event.preventDefault();
         if ($(".entry input").val()) {
             var content = $(".entry input").val();
             $(".entry input").val("");
@@ -19,6 +20,7 @@ $(document).ready(function() {
                     $(this).next().css("text-decoration", "none"); 
                 } 
             });
-        }    
+        }
+        
     });
 });
